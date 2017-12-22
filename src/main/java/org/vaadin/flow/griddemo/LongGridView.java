@@ -15,9 +15,12 @@
  */
 package org.vaadin.flow.griddemo;
 
+import java.util.stream.IntStream;
+
 import org.vaadin.flow.griddemo.data.Person;
 import org.vaadin.flow.griddemo.data.PersonService;
 
+import com.vaadin.data.provider.CallbackDataProvider;
 import com.vaadin.router.Route;
 import com.vaadin.ui.common.HtmlImport;
 import com.vaadin.ui.grid.ColumnGroup;
@@ -30,12 +33,12 @@ import com.vaadin.ui.renderers.TemplateRenderer;
  * The main view contains a button and a template element.
  */
 @HtmlImport("styles.html")
-@Route("")
-public class MainView extends VerticalLayout {
+@Route("long")
+public class LongGridView extends VerticalLayout {
 
     private Grid<Person> grid;
 
-    public MainView() {
+    public LongGridView() {
         grid = new Grid<>();
 
         // Columns
@@ -77,10 +80,14 @@ public class MainView extends VerticalLayout {
                 .setHeader("Contact");
 
         // Data
-        grid.setItems(PersonService.getInstance().getAll());
+        grid.setDataProvider(new CallbackDataProvider<>(
+                query -> IntStream.range(0, query.getLimit())
+                        .mapToObj(i -> PersonService.getInstance().getAll()
+                                .get(i % PersonService.getInstance().getSize())),
+                query -> 1000));
 
         // Size
-        indexColumn.setWidth("60px").setResizable(false).setFrozen(true);
+        indexColumn.setWidth("65px").setFrozen(true);
         streetColumn.setWidth("250px");
         cityColumn.setWidth("150px");
         stateColumn.setWidth("150px");
@@ -92,7 +99,7 @@ public class MainView extends VerticalLayout {
         addressGroup.setResizable(true);
         contactGroup.setResizable(true);
 
-        grid.setWidth("600px");
+        grid.setWidth("100%");
 
         add(grid);
     }

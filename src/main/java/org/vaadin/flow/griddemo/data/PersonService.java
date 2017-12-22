@@ -35,6 +35,10 @@ public class PersonService {
         return people;
     }
 
+    public int getSize() {
+        return people.size();
+    }
+
     private List<Person> fetchAll() {
 
         String dataJson = "";
