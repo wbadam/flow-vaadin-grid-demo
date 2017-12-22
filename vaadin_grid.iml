@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-Polymer-polymer:v2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-Polymer-polymer:v2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin:10.0.0.alpha8" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:flow-server:1.0.0.alpha11" level="project" />
+    <orderEntry type="library" name="Maven: com.google.gwt:gwt-elemental:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.3.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.10.3" level="project" />
+    <orderEntry type="library" name="Maven: com.helger:ph-css:4.1.3" level="project" />
+    <orderEntry type="library" name="Maven: com.helger:ph-commons:6.2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:annotations:2.0.3" level="project" />
+    <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.7.5" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.gentyref:gentyref:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:webjars-locator-core:0.32" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-compress:1.9" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.3" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:flow-push:1.0.0.alpha11" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin.external.atmosphere:atmosphere-runtime:2.4.5.vaadin2" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin.external.slf4j:vaadin-slf4j-jdk14:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:flow-client:1.0.0.alpha11" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:flow-data:1.0.0.alpha11" level="project" />
+    <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:flow-generated-components:1.0.0.alpha11" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:flow-html-components:1.0.0.alpha11" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-button-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-button:1.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:polymer:2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-vaadin-vaadin-control-state-mixin:v1.1.5" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-themable-mixin:1.1.5" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-checkbox-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-checkbox:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-control-state-mixin:1.1.5" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-combo-box-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-combo-box:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:iron-a11y-keys-behavior:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:iron-a11y-announcer:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:iron-resizable-behavior:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:iron-list:2.0.10" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-a11y-keys-behavior:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-overlay:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-date-picker-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-date-picker:2.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:iron-overlay-behavior:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-fit-behavior:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:iron-dropdown:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-behaviors:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-overlay-behavior:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-neon-animation:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-selector:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:iron-media-query:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-dialog-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-dialog:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-form-layout-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-form-layout:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-grid-flow:1.0.0.alpha1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-grid:4.1.0-alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-resizable-behavior:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-scroll-target-behavior:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-icons-flow:1.0.0.alpha3" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-icons:4.1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:iron-icon:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:iron-iconset-svg:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-ordered-layout-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-ordered-layout:1.0.0-alpha1" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-progress-bar-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-progress-bar:1.0.0-alpha6" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-split-layout-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-split-layout:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-tabs-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-tabs:1.0.0-beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-item:1.0.0-alpha6" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-vaadin-vaadin-list-mixin:v1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-text-field-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-text-field:1.2.0-alpha2" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-upload-flow:1.0.0.alpha2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-upload:2.1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-paper-button:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-paper-behaviors:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-checked-element-behavior:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-validatable-behavior:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-form-element-behavior:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-Polymer-polymer:v2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-paper-ripple:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-paper-icon-button:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-paper-styles:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-font-roboto:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-paper-progress:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-range-behavior:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:vaadin-valo-theme:2.0.0-alpha4" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymer-polymer:v2.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-webcomponents-shadycss:v1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-webcomponents-webcomponentsjs:v1.0.14" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-icon:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-flex-layout:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-meta:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.bower:github-com-polymerelements-iron-iconset-svg:2.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+  </component>
+</module>
